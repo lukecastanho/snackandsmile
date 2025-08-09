@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snack&Smile – Vending Machines in Your City</title>
+  <meta name="description" content="Snack&Smile provides modern, cashless vending machines in Your City, CT — stocked with drinks, snacks, and essentials. Free install. We restock, clean, and maintain.">
+  <link rel="canonical" href="https://www.yourdomain.com/" />
+  <link rel="icon" href="/assets/img/favicon.png" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Snack&Smile – Modern Vending Machines" />
+  <meta property="og:description" content="Cashless, tailored vending machines for gyms, apartments, and offices. Free install. We handle everything." />
+  <meta property="og:url" content="https://www.yourdomain.com/" />
+  <meta property="og:type" content="website" />
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Snack&Smile LLC",
+    "url":"https://www.yourdomain.com/",
+    "telephone":"+1-860-000-0000",
+    "areaServed": "Your City, CT",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Your City",
+      "addressRegion":"CT",
+      "addressCountry":"US"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="/">Snack&Smile</a>
+      <div class="spacer"></div>
+      <a href="#services">Services</a>
+      <a href="#locations">Locations</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-content">
+        <h1>Modern, Cashless Vending Machines for Gyms, Apartments & Offices</h1>
+        <p>We install and manage vending machines tailored to your location. <strong>Free installation</strong>. We handle restocking, cleaning, and maintenance.</p>
+        <a href="#contact" class="btn btn-primary">Request a Placement</a>
+        <p class="cta-note">Serving <em>Your City, CT</em> and nearby.</p>
+      </div>
+      <img class="hero-img" src="/assets/img/hero-placeholder.png" alt="Snack&Smile vending machine mockup" />
+    </section>
+
+    <section id="services" class="container section">
+      <h2>What We Provide</h2>
+      <div class="grid three">
+        <div class="card">
+          <h3>Beverage Machines</h3>
+          <p>Waters, sports drinks, energy drinks, protein shakes—curated for your crowd.</p>
+        </div>
+        <div class="card">
+          <h3>Snack & Micro-Market</h3>
+          <p>Snacks and essentials. Cashless checkout; fast and reliable.</p>
+        </div>
+        <div class="card">
+          <h3>Full Service</h3>
+          <p>Installation, restocking, cleaning, repairs—<strong>we handle everything</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="container section">
+      <h2>Great for These Locations</h2>
+      <ul class="pill-list">
+        <li>Gyms & Training Centers</li>
+        <li>Apartment Communities</li>
+        <li>Office Buildings</li>
+        <li>Factories & Warehouses</li>
+        <li>Schools & Campuses</li>
+      </ul>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>Why Snack&Smile?</h2>
+      <div class="grid two">
+        <div>
+          <ul class="checklist">
+            <li>Cashless payments (tap, chip, Apple Pay/Google Pay)</li>
+            <li>Customized product mix per location</li>
+            <li>Usage-based restocking with sales tracking</li>
+            <li>Local service & fast support</li>
+          </ul>
+        </div>
+        <div class="quote">
+          “We make it <em>effortless</em> for property managers—our machines just work. Your people get what they want, when they want it.”
+          <div class="sig">— Snack&Smile LLC</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Get a Quote</h2>
+      <p>Tell us about your location and foot traffic. We’ll recommend the right machine and setup window.</p>
+      <form method="POST" action="https://formspree.io/f/your-form-id">
+        <div class="grid two">
+          <label>Full Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" required>
+          </label>
+        </div>
+        <div class="grid two">
+          <label>Phone
+            <input type="tel" name="phone">
+          </label>
+          <label>Property Type
+            <select name="property">
+              <option>Gym</option>
+              <option>Apartment</option>
+              <option>Office</option>
+              <option>Other</option>
+            </select>
+          </label>
+        </div>
+        <label>Estimated Daily Foot Traffic
+          <input type="number" name="traffic" min="0" step="1">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5" placeholder="Tell us about your location and needs"></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Request Placement</button>
+      </form>
+      <p class="contact-meta">Prefer email or phone? <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a> • (860) 000‑0000</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Snack&Smile LLC. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
